@@ -1,0 +1,37 @@
+<ion-view title="Add a Contact">
+
+<ion-nav-buttons side="right">
+	<a class="button button-clear" ng-click="saveRecord()"> Save </a>
+</ion-nav-buttons>
+
+<ion-content has-header="true"><!-- padding="true" -->
+	
+	<div class="list">
+
+
+
+		<label class="item item-input">
+			<div class="input-label balanced"> Name </div>
+			<input type="text" ng-model="record.address">
+		</label>
+
+		<label class="item item-input">
+			<span class="input-label balanced">Number</span>
+			<input type="text" ng-model="record.content">
+		</label>
+
+        <label class="item item-input">
+            <div class="input-label balanced"> Priority </div>
+            <input type="text" ng-model="record.price">
+        </label>
+
+		<!-- <div class="item item-divider">照片</div>
+		<div class="item">照片列表</div> -->
+		
+		<div class="padding">
+			<button class="button button-assertive" ng-show="DelButtonShow" ng-click="delRecord({{recordId}})"> Delete </button>
+		</div>
+	</div>
+
+</ion-content>
+</ion-view>
