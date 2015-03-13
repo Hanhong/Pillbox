@@ -1,0 +1,7 @@
+{
+  "name": "Pillbox",
+  "description": "for eecs330 hci",
+  "repository": "https://github.com/Hanhong/Pillbox",
+  "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
+  "keywords": ["ionic", "static"]
+}
